@@ -1,3 +1,25 @@
+.headings{
+    clear: both;
+    font-family: 'Oswald',sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 24px;
+}
+    body {
+        background: #f0f0f0;
+    }
 .banner{
     background-image: url('img/cropped-cropped-background.jpg');
+}
+.gnrl{
+    clear: both;
+    font-family: 'Oswald',sans-serif; 
+}
+.gnrltext{
+    clear: both;
+    font-family: 'Source Sans Pro',Arial,sans-serif; 
+    font-size: 16px;
+    font-weight: normal;
+    color: #404040;
 }
