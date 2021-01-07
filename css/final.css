@@ -1,10 +1,15 @@
+/*bghead {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}*/
+
+
 .headings{
     clear: both;
     font-family: 'Oswald',sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #333333;
-    font-size: 24px;
+    font-size: 26px;
 }
     body {
        /* background: #f0f0f0;*/
@@ -59,7 +64,7 @@ a.one:link {color:#ffffff;text-align: center;
     
 
 }
-a.one:visited {color:#0000ff;text-align: center;
+a.one:visited {color:#ffffff;text-align: center;
     text-decoration: none;}
 a.one:hover {color:#ff0000;text-align: center;
     text-decoration: none;}
@@ -70,3 +75,7 @@ a.one:hover {color:#ff0000;text-align: center;
     -webkit-box-shadow: 0 0 5px 5px #ddd;
     box-shadow: 0 0 5px 5px #ddd;
     }
+
+.about{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
