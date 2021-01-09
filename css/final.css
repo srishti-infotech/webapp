@@ -1,8 +1,38 @@
+.futura{
+    font-family:'Futura+Hv+BT';
+}
+
+
+
+
+.scrollToTop{
+    width:50px; 
+    height:50px;
+    padding:10px; 
+   
+    text-align: center;
+    text-decoration: none;
+    position:fixed;
+    top:500px;
+    right:40px;
+    display:none;
+    /*background: url('arrow_up.png') no-repeat 0px 20px;*/
+}
+.scrollToTop:hover{
+    text-decoration:none;
+    background-color: rgb(166, 255, 0);
+}
+
+
+
+
+
+
 .request-btn {
     position: fixed;
     right: 0;
     top: 35%;
-    background: #0183e3;
+    background: #b0cf00;
     padding: 15px;
     color: #fff !important;
     line-height: 15px;
@@ -33,7 +63,7 @@
     width: 100%;
     display: block;
     height: 25px;
-    background: #0183e3;
+    background: #647500;
     padding: 0 10px;
 }
 
@@ -89,19 +119,19 @@
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 999; /* Make sure it does not overlap */
+    right: 40px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color:darkkhaki; /* Set a background color */
+    background-color:rgb(255, 238, 0); /* Set a background color */
     color:white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
   }
   
   #myBtn:hover {
-    background-color: #555;
+    background-color: rgb(46, 0, 0);
   }
 
 .back-to-top {
@@ -170,7 +200,7 @@ margin-bottom: 0;
 }*/
 i.hcolor:hover{
     clear: both;
-    color:darkorange;
+    color:#0004ff;
 }
 a{
     clear: both;
